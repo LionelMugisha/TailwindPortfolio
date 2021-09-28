@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .menu{
+        @apply mt-2 text-gray-600 font-semibold
+    }
+    .img-bor{
+        @apply col-span-2 border border-white
+    }
+    .txt-center{
+        @apply text-center
+    }
+    .img-round{
+        @apply rounded-full h-44 w-44 flex items-center justify-center
+    }
+}

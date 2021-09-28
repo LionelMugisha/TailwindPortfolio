@@ -634,6 +634,35 @@ video {
   }
 }
 
+.menu{
+  margin-top: 0.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity))
+}
+
+.img-bor{
+  grid-column: span 2 / span 2;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity))
+}
+
+.txt-center{
+  text-align: center
+}
+
+.img-round{
+  display: flex;
+  height: 11rem;
+  width: 11rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
